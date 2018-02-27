@@ -24,6 +24,6 @@ def opposite(number):
 
 
 # Test methods below
-assert opposite(1) == -1
-assert opposite(14) == -14
-assert opposite(-34) == 34
+assert opposite(1) == -1, "Positive number must be turned into negative"
+assert opposite(14) == -14, "Positive number must be turned into negative"
+assert opposite(-34) == 34, "Negative number must be turned into positive"

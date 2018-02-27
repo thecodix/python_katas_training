@@ -29,11 +29,11 @@ def xo(s):
 
 
 # Test methods below
-assert xo('XO') is True
-assert xo('xo0') is True
-assert xo('xxxoo') is False
-assert xo('oooxxxo') is False
-assert xo('Lord Skrillex') is True
+assert xo('XO') is True, "Should be True, same number of X and O"
+assert xo('xo0') is True, "Should be True, same number of X and O"
+assert xo('xxxoo') is False, "Should be False, different number of X and O"
+assert xo('oooxxxo') is False, "Should be False, different number of X and O"
+assert xo('Lord Skrillex') is True, "Should be True, same number of X and O"
 
 
 

@@ -20,8 +20,8 @@ def even_or_odd(number):
 
 
 # Test methods below
-assert even_or_odd(2) == "Even"
-assert even_or_odd(0) == "Even"
-assert even_or_odd(7) == "Odd"
-assert even_or_odd(1) == "Odd"
-assert even_or_odd(-3) == "Odd"
+assert even_or_odd(2) == "Even", "Did not return 'Even' for even number"
+assert even_or_odd(0) == "Even", "Did not return 'Even' for even number"
+assert even_or_odd(7) == "Odd", "Did not return 'Odd' for odd number"
+assert even_or_odd(1) == "Odd", "Did not return 'Odd' for odd number"
+assert even_or_odd(-3) == "Odd", "Did not return 'Odd' for odd number"

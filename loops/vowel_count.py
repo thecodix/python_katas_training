@@ -25,6 +25,6 @@ def get_count(input_str):
 
 
 # Test methods below
-assert get_count("magic") == 2
-assert get_count("abracadabra") == 5
-assert get_count("let's get lost") == 3
+assert get_count("magic") == 2, "Vowel count is not correct"
+assert get_count("abracadabra") == 5, "Vowel count is not correct"
+assert get_count("let's get lost") == 3, "Vowel count is not correct"

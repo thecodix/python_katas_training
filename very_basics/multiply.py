@@ -18,5 +18,5 @@ def multiply(a, b):
 
 # Test methods below
 # Ideally you should only change the values here for further testing
-assert multiply(2, 3) == 6
-assert multiply(5, 10) == 50
+assert multiply(2, 3) == 6, "Result of multiply is not correct"
+assert multiply(5, 10) == 50, "Result of multiply is not correct"
