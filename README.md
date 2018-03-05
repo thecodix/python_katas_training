@@ -19,6 +19,8 @@ Project considers you are using Python 3 to solve the exercises
 
 1.4) [String repeat](very_basics/string_repeat.py) - _fundamentals_, _string_
 
+1.5) [Cat years dog years](very_basics/cat_years_dog_years.py) - _fundamentals_
+
 ## 2 Loops
 
 2.1) [Vowel count](loops/vowel_count.py) - _fundamentals_, _loops_, _string_
